@@ -1,0 +1,26 @@
+{{> head}}
+{{> nav}}
+<div id="band" class="container text-center">
+  <h3>{{h3}}</h3>
+  <p>{{p}}</p>
+  <p><b>{{total}}</b> Games</p>
+</div>
+
+<div>
+  <table class="table table-hover table-responsive">
+    <tr>
+      <th>Name</th>
+      <th>Platform</th>
+      <th>Publisher</th>
+    </tr>
+    {{#each games}}
+    <tr>
+      <td>{{name}}</td>
+      <td>{{platform}}</td>
+      <td>{{publisher}}</td>
+    </tr>
+    {{/each}}
+  </table>
+</div>
+
+{{> footer}}
