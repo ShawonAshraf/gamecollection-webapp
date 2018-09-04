@@ -36,7 +36,7 @@ npm start
 ## CI/CD
 You can use travis for CI/CD. Alternatively you can also use heroku to build + deploy the project on new commits.
 
-**You can just push the button below if you have an account on herok ;)**
+**You can just push the button below if you have an account on heroku ;)**
 
 [![Deploy](https://www.herokucdn.com/deploy/button.svg)](https://heroku.com/deploy)
 
